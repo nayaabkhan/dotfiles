@@ -1,4 +1,15 @@
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
+  Plug 'jxnblk/vim-mdx-js'
+  Plug 'tpope/vim-surround'
+  Plug 'jparise/vim-graphql'
+  Plug 'prettier/vim-prettier'
+  Plug 'scrooloose/nerdtree'
+  Plug 'drewtempelmeyer/palenight.vim'
+  Plug 'dracula/vim', { 'as': 'dracula' }
+  Plug 'chemzqm/vim-jsx-improve'
+call plug#end()
 
 " Disable arrow keys
 noremap <Up> <NOP>
