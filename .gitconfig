@@ -1,0 +1,23 @@
+[user]
+	email = khannayaab@gmail.com
+	name = Nayaabkhan Khan
+	signingkey = 9CB8295FB0892A59
+
+[color]
+	ui = auto
+
+[pull]
+	# https://git-scm.com/docs/git-config#git-config-pullrebase
+	rebase = true
+
+[push]
+	# https://git-scm.com/docs/git-config#git-config-pushdefault
+	default = simple
+	# Make `git push` push relevant annotated tags when pushing branches out.
+	followTags = true
+
+[commit]
+	# https://help.github.com/articles/signing-commits-using-gpg/
+	gpgsign = true
+[gpg]
+	program = gpg
