@@ -73,6 +73,7 @@ brew cask install tunnelbear
 brew cask install visual-studio-code
 brew cask install vlc
 brew cask install vox
+brew cask install plug
 
 
 # Remove outdated versions from the cellar.
