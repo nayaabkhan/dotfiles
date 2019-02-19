@@ -74,6 +74,7 @@ brew cask install visual-studio-code
 brew cask install vlc
 brew cask install vox
 brew cask install plug
+brew cask install sloth
 
 
 # Remove outdated versions from the cellar.
