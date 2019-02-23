@@ -1,0 +1,25 @@
+{
+  "telemetry.enableTelemetry": false,
+  "workbench.activityBar.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Light+ Tweaked",
+  "editor.fontFamily": "Hasklig",
+  "editor.fontSize": 12.5,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 20,
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "line",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "window.zoomLevel": 0,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false
+}
