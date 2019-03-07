@@ -14,5 +14,11 @@ function lookbusy ; cat /dev/urandom | hexdump -C | grep --color "ca fe" ; end
 function mkgit    ; mkdir $argv ; cd $argv ; git init ; end
 function c        ; code . ; end
 function s        ; subl . ; end
-function cdp      ; cd ~/Projects/$argv ; end
+function cdp
+  if test (count $argv) -ge 1
+    cd ~/Projects/$argv
+  else
+    cd ~/Projects
+  end
+end
 function clone    ; git clone $argv; cd (basename $argv .git); end
