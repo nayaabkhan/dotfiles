@@ -15,3 +15,4 @@ function mkgit    ; mkdir $argv ; cd $argv ; git init ; end
 function c        ; code . ; end
 function s        ; subl . ; end
 function cdp      ; cd ~/Projects/$argv ; end
+function clone    ; git clone $argv; cd (basename $argv .git); end
