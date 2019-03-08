@@ -48,6 +48,7 @@ brew install tmux
 brew install trash
 brew install yarn
 brew install youtube-dl
+brew install mas
 
 # Install macOS apps.
 brew cask install alfred
