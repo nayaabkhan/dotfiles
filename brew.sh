@@ -39,6 +39,7 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install git
+brew install hub
 brew install htop
 brew install bat
 brew install asciinema
