@@ -50,6 +50,11 @@ brew install trash
 brew install yarn
 brew install youtube-dl
 brew install mas
+brew install the_silver_searcher
+brew install vifm
+brew install clang-format
+brew install cmake
+brew install cmus
 
 # Install macOS apps.
 brew cask install alfred
