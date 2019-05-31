@@ -55,6 +55,7 @@ brew install vifm
 brew install clang-format
 brew install cmake
 brew install cmus
+brew install kubectx
 
 # Install macOS apps.
 brew cask install alfred
@@ -82,6 +83,8 @@ brew cask install vlc
 brew cask install vox
 brew cask install plug
 brew cask install sloth
+brew cask install ubersicht
+brew cask install balenaetcher
 
 
 # Remove outdated versions from the cellar.
