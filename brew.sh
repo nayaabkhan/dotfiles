@@ -11,6 +11,10 @@ brew upgrade
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
 
+# Tap the required repos.
+brew tap homebrew/cask-fonts
+brew tap cjbassi/gotop
+
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils
@@ -41,6 +45,7 @@ brew install openssh
 brew install git
 brew install hub
 brew install htop
+brew install gotop
 brew install bat
 brew install asciinema
 brew install node
