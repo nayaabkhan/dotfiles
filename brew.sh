@@ -85,6 +85,7 @@ brew cask install plug
 brew cask install sloth
 brew cask install ubersicht
 brew cask install balenaetcher
+brew cask install icons8
 
 
 # Remove outdated versions from the cellar.
