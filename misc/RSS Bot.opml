@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<opml version="1.1">
+    <head>
+        <title>RSS Bot</title>
+        <dateCreated>Monday, 3 June 2019 at 7:06:01 PM IST</dateCreated>
+    </head>
+    <body>
+        <outline title="A List Apart: The Full Feed" text="A List Apart: The Full Feed" type="rss" xmlUrl="https://alistapart.com/main/feed/" />
+        <outline title="Behavioral Scientist" text="Behavioral Scientist" type="rss" xmlUrl="https://behavioralscientist.org/feed/" />
+        <outline title="Overreacted" text="Overreacted" type="rss" xmlUrl="https://overreacted.io/rss.xml" />
+        <outline title="ReactTraining.com Blog Feed" text="ReactTraining.com Blog Feed" type="rss" xmlUrl="https://reacttraining.com/rss.xml" />
+        <outline title="UX Movement" text="UX Movement" type="rss" xmlUrl="https://uxmovement.com/feed/" />
+    </body>
+</opml>
