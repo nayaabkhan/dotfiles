@@ -48,7 +48,7 @@ brew install htop
 brew install gotop
 brew install bat
 brew install asciinema
-brew install node
+brew install node@12
 brew install tldr
 brew install tmux
 brew install trash
