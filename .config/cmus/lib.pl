@@ -168,6 +168,8 @@
 /Users/nayaabkhan/Dropbox/Music/The Chainsmokers/Memories…Do Not Open/08 Paris.flac
 /Users/nayaabkhan/Dropbox/Music/The Chainsmokers & Coldplay/Something Just Like This/01 Something Just Like This.flac
 /Users/nayaabkhan/Dropbox/Music/The Handsome Family/Singing Bones/05 Far From Any Road.mp3
+/Users/nayaabkhan/Dropbox/Music/The Midnight/Days of Thunder/05 Kick Drums & Red Wine.mp3
+/Users/nayaabkhan/Dropbox/Music/The Midnight/Sunset/01 Sunset.mp3
 /Users/nayaabkhan/Dropbox/Music/The Police/Synchronicity/07 Every Breath You Take.mp3
 /Users/nayaabkhan/Dropbox/Music/The Weeknd feat. Daft Punk/Starboy/01 Starboy.flac
 /Users/nayaabkhan/Dropbox/Music/The Weeknd feat. Daft Punk/I Feel It Coming/01 I Feel It Coming.flac
@@ -193,6 +195,7 @@
 /Users/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/12 The Walls Came Down (single version).flac
 /Users/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/13 The Stand (long version).flac
 /Users/nayaabkhan/Dropbox/Music/Compilations/Everything, Everything_ Original Motion Picture Soundtrack/07 Stay.flac
+/Users/nayaabkhan/Dropbox/Music/Compilations/Marjaavaan/10 Tum Hi Aana (Duet version).mp3
 /Users/nayaabkhan/Dropbox/Music/Vishal-Shekhar/Dus/01 Dus Bahane.mp3
 /Users/nayaabkhan/Dropbox/Music/Zara Larsson/Lush Life/01 Lush Life.mp3
 /Users/nayaabkhan/Dropbox/Music/島みやえい子/Higurashi no Naku Koro ni/01 Higurashi no Naku Koro ni.mp3

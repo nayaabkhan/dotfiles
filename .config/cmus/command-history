@@ -1,8 +1,8 @@
 q
 filter
+filter flac
 filter artist="Maroon*"
 filter artist=Anu
-filter flac
 file:q
 filter 
 fset flac=filename="*.flac"
