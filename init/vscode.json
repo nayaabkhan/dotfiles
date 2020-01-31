@@ -1,26 +1,38 @@
 {
-  "telemetry.enableTelemetry": false,
-  "workbench.activityBar.visible": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Light+ Tweaked",
-  "editor.fontFamily": "Hasklig",
-  "editor.fontSize": 12.5,
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 20,
-  "editor.formatOnSave": true,
-  "editor.cursorStyle": "line",
-  "editor.rulers": [80],
-  "editor.tabSize": 2,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "prettier.singleQuote": true,
-  "prettier.semi": false,
-  "window.zoomLevel": 0,
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
-  "color-highlight.markerType": "dot-before"
+    "editor.lineNumbers": "relative",
+    "editor.lineHeight": 21,
+    "editor.fontFamily": "Hasklig, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "terminal.integrated.lineHeight": 1.4,
+    "editor.fontSize": 13,
+    "npm.packageManager": "yarn",
+    "editor.wordWrap": "on",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.insertFinalNewline": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.titleBarStyle": "native",
+    "customizeUI.titleBar": "frameless",
+    "customizeUI.activityBar": "wide",
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Light+ Tweaked",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true
 }
