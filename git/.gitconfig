@@ -19,7 +19,9 @@
 [commit]
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
+	verbose = true
 [gpg]
 	program = gpg
 [core]
 	excludesfile = /Users/nayaabkhan/.gitignore
+	editor = subl -w
