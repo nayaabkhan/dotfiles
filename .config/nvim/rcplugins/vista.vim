@@ -1,0 +1,1 @@
+Plug 'liuchengxu/vista.vim'

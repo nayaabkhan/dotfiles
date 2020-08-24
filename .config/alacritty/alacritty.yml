@@ -1,0 +1,41 @@
+# Live reload configuration changes
+live_config_reload: true
+
+window:
+  decorations: buttonless
+  padding:
+    x: 10
+    y: 10
+
+font:
+  normal:
+    family: FantasqueSansMono Nerd Font
+    style: Regular
+  
+  bold:
+    family: FantasqueSansMono Nerd Font
+    style: Regular
+
+  italic:
+    family: FantasqueSansMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: FantasqueSansMono Nerd Font
+    style: Regular Italic
+
+  size: 15
+
+  offset:
+    x: 1
+    y: 8
+
+  glyph_offset:
+    y: 6
+
+  use_thin_strokes: true
+
+draw_bold_text_with_bright_colors: true
+
+key_bindings:
+  - { key: N, mods: Command, command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }
