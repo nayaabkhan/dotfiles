@@ -5,4 +5,4 @@
 .config/hub
 *codeclimate*
 *node_modules*
-
+.config/gh
