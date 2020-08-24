@@ -4,7 +4,21 @@
 	signingkey = 9CB8295FB0892A59
 
 [color]
-	ui = auto
+	ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
 
 [pull]
 	# https://git-scm.com/docs/git-config#git-config-pullrebase
@@ -25,3 +39,5 @@
 [core]
 	excludesfile = /Users/nayaabkhan/.gitignore
 	editor = subl -w
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
