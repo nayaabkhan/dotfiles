@@ -4,3 +4,5 @@
 .config/neofetch
 .config/hub
 *codeclimate*
+*node_modules*
+
