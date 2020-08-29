@@ -72,7 +72,7 @@
                         "product_id": 30264,
                         "vendor_id": 3141
                     },
-                    "ignore": true,
+                    "ignore": false,
                     "manipulate_caps_lock_led": false,
                     "simple_modifications": []
                 },
