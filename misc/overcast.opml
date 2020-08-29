@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head><title>Overcast Podcast Subscriptions</title></head>
+  <body>
+    <outline text="feeds">
+
+      <outline type="rss" overcastId="1002627" text="The Anthropocene Reviewed" title="The Anthropocene Reviewed" xmlUrl="http://feeds.wnyc.org/TheAnthropoceneReviewed" htmlUrl="https://www.wnycstudios.org/podcasts/anthropocene-reviewed"/>
+      <outline type="rss" overcastId="484679" text="The Changelog: Software Dev &amp; Open Source" title="The Changelog: Software Dev &amp; Open Source" xmlUrl="https://changelog.com/podcast/feed" htmlUrl="https://changelog.com/podcast"/>
+      <outline type="rss" overcastId="632536" text="Rework" title="Rework" xmlUrl="https://feeds.transistor.fm/rework" htmlUrl="https://rework.fm/"/>
+      <outline type="rss" overcastId="1314599" text="True Southeast Asia Horror Stories - GHOST MAPS" title="True Southeast Asia Horror Stories - GHOST MAPS" xmlUrl="https://hantu.libsyn.com/rss" htmlUrl="https://www.hantu.sg/"/>
+      <outline type="rss" overcastId="907951" text="The Black Tapes" title="The Black Tapes" xmlUrl="https://theblacktapes.libsyn.com/rss" htmlUrl="http://theblacktapespodcast.com/"/>
+      <outline type="rss" overcastId="782594" text="Alice Isn't Dead" title="Alice Isn't Dead" xmlUrl="http://feeds.nightvalepresents.com/aliceisntdeadpodcast" htmlUrl="http://www.aliceisntdead.com/"/>
+      <outline type="rss" overcastId="1213793" text="Wolf 359" title="Wolf 359" xmlUrl="https://wolf359radio.libsyn.com/rss" htmlUrl="http://www.wolf359.fm/"/>
+      <outline type="rss" overcastId="1892715" text="Friction Log" title="Friction Log" xmlUrl="https://frictionlog.com/api/rss" htmlUrl="https://frictionlog.com/"/>
+
+    </outline>
+  </body>
+</opml>
