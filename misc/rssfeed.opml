@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<opml version="1.0">
+<head>
+<title>Elytra Subscriptions</title>
+</head>
+<body>
+    <outline text="Elytra" title="Elytra" type="rss" xmlUrl="https://blog.elytra.app/feed/" htmlUrl="https://blog.elytra.app" />
+    <outline text="Commonplace - The Commoncog Blog" title="Commonplace - The Commoncog Blog" type="rss" xmlUrl="https://commoncog.com/blog/rss/" htmlUrl="https://commoncog.com" />
+    <outline text="Seth's Blog" title="Seth's Blog" type="rss" xmlUrl="https://seths.blog/feed/" htmlUrl="https://seths.blog" />
+    <outline text="Code Without Rules" title="Code Without Rules" type="rss" xmlUrl="https://codewithoutrules.com/atom.xml" htmlUrl="https://codewithoutrules.com" />
+    <outline text="Keavy McMinn" title="Keavy McMinn" type="rss" xmlUrl="https://keavy.com/feed.xml" htmlUrl="https://keavy.com" />
+    <outline text="Tania Rascia | RSS Feed" title="Tania Rascia | RSS Feed" type="rss" xmlUrl="https://www.taniarascia.com/rss.xml" htmlUrl="https://www.taniarascia.com" />
+    <outline text="Stéphanie Walter – UX and UI Design, Mobile optimization" title="Stéphanie Walter – UX and UI Design, Mobile optimization" type="rss" xmlUrl="https://stephaniewalter.design/feed/" htmlUrl="https://stephaniewalter.design" />
+    <outline text="The Beautiful Mess" title="The Beautiful Mess" type="rss" xmlUrl="https://cutlefish.substack.com/feed" htmlUrl="https://cutlefish.substack.com" />
+    <outline text="tonsky.me" title="tonsky.me" type="rss" xmlUrl="https://tonsky.me/blog/atom.xml" htmlUrl="https://tonsky.me" />
+</body>
+</opml>
