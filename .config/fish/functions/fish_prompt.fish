@@ -1,5 +1,5 @@
 function fish_prompt
-	set -l __last_command_exit_status $status
+    set -l __last_command_exit_status $status
 
     if not set -q -g __fish_robbyrussell_functions_defined
         set -g __fish_robbyrussell_functions_defined
@@ -84,4 +84,12 @@ function fish_prompt
     end
 
     echo -n -s $arrow ' '$cwd $repo_info $normal ' '
+end
+
+function fish_right_prompt
+    if test $CMD_DURATION
+        # Show duration of the last command in seconds
+        set duration (echo "$CMD_DURATION 1000" | awk '{printf "%.3fs", $1 / $2}')
+        echo $duration
+    end
 end
