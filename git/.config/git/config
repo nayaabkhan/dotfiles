@@ -1,7 +1,7 @@
 [user]
 	email = khannayaab@gmail.com
 	name = Nayaabkhan Khan
-	signingkey = 9CB8295FB0892A59
+	signingkey = 1277CE5FAFD654BB
 
 [color]
 	ui = true
@@ -41,3 +41,8 @@
 	editor = subl -w
 	pager = diff-so-fancy | less --tabs=4 -RFX
 
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+
+[ghq]
+	root = ~/forks
