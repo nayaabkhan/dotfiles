@@ -1,11 +1,8 @@
-set -U fish_greeting ""
-set -x GPG_TTY (tty)
-
+# enable vim mode
 fish_vi_key_bindings
-function fish_mode_prompt
-end
 
-source ~/.config/fish/paths.fish
 source ~/.config/fish/aliases.fish
-source ~/.config/fish/.iterm2_shell_integration.fish
-source ~/.config/fish/iterm.fish
+source ~/.config/fish/env.fish
+
+# pure prompt customisation
+set pure_threshold_command_duration 2
