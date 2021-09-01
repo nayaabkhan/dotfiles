@@ -66,6 +66,7 @@
 /home/nayaabkhan/Dropbox/Music/Sohail Sen/Mere Brother Ki Dulhan/04 Isq Risk.mp3
 /home/nayaabkhan/Dropbox/Music/The Chainsmokers ft. XYLØ/Setting Fires/01 Setting Fires.flac
 /home/nayaabkhan/Dropbox/Music/The Midnight/Sunset/01 Sunset.mp3
+/home/nayaabkhan/Dropbox/Music/The Police/Synchronicity/07 Every Breath You Take.mp3
 /home/nayaabkhan/Dropbox/Music/The Weeknd ft. Daft Punk/I Feel It Coming/01 I Feel It Coming.flac
 /home/nayaabkhan/Dropbox/Music/Usher/Yeah!/01 Yeah!.mp3
 /home/nayaabkhan/Dropbox/Music/Usher/More/02 More.mp3
@@ -73,6 +74,19 @@
 /home/nayaabkhan/Dropbox/Music/Usher feat. will.i.am/OMG/01 OMG.mp3
 /home/nayaabkhan/Dropbox/Music/Compilations/Raajneeti/01 Bheegi Si Bhaagi Si.mp3
 /home/nayaabkhan/Dropbox/Music/Compilations/Raajneeti/02 Mora Piya.mp3
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/01 Only You.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/02 Kill Em With Kindness (acoustic).flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/03 Bored.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/04 Love Will Tear Us Apart.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/05 Into the Black.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/06 The Night We Met.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/07 A 1000 Times.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/08 The Killing Moon.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/09 High.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/10 Cool Blue.flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/11 Fascination Street (remastered).flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/12 The Walls Came Down (single version).flac
+/home/nayaabkhan/Dropbox/Music/Compilations/13 Reasons Why_ A Netflix Original Series Soundtrack/13 The Stand (long version).flac
 /home/nayaabkhan/Dropbox/Music/Compilations/Pure Synthpop, Vol. 1/03 Summer Lights.flac
 /home/nayaabkhan/Dropbox/Music/Vishal Bhardwaj/Maachis/08 Chappa Chappa.mp3
 /home/nayaabkhan/Dropbox/Music/Vishal Bhardwaj/Ek Thi Daayan/01 Yaaram.mp3
