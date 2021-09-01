@@ -35,3 +35,5 @@ abbr grbi "git rebase -i"
 abbr gs "git status"
 abbr gsw "git switch"
 abbr gswc "git switch -c"
+abbr grh "git reset HEAD"
+
