@@ -23,7 +23,7 @@ SETUVAR _fish_abbr_grb:git\x20rebase
 SETUVAR _fish_abbr_grba:git\x20rebase\x20\x2d\x2dabort
 SETUVAR _fish_abbr_grbc:git\x20rebase\x20\x2d\x2dcontinue
 SETUVAR _fish_abbr_grbi:git\x20rebase\x20\x2di
-SETUVAR _fish_abbr_gs:git\x20status\x20\x2ds\x20\x2db
+SETUVAR _fish_abbr_gs:git\x20status
 SETUVAR _fish_abbr_gsw:git\x20switch
 SETUVAR _fish_abbr_gswc:git\x20switch\x20\x2dc
 SETUVAR _fish_abbr_n:nvim
