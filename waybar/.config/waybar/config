@@ -1,0 +1,97 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["tray", "idle_inhibitor", "network", "pulseaudio", "battery", "clock", "custom/notifs"],
+
+    "sway/workspaces": {
+        "disable-scroll": true
+    },
+
+    "sway/window": {
+        "max-length": 50
+    },
+    
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+
+    "idle_inhibitor": {
+        "format": "",
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%a %b %d %R}"
+    },
+
+    "temperature": {
+        "critical-threshold": 75,
+        "format": " {temperatureC}°C"
+    },
+    
+    "battery": {
+        "bat": "BAT0",
+        "full-at": 95,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-discharging": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    
+    "network": {
+        "format-wifi": "",
+        "format-disconnected": "",
+        "tooltip-format": " {essid}   {ipaddr}   {signalStrength}%",
+        "format-icons": {
+            "wifi": ["", "" ,""]
+        }
+    },
+    
+    "bluetooth": {
+        "format": "{icon}",
+        "interval": 30,
+        "format-icons": {
+            "enabled": "",
+            "disabled": ""
+        },
+        "tooltip": false
+    },
+    
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "",
+        "tooltip-format": "{volume}%",
+        "format-icons": {
+            "headphones": "",
+			      "handsfree": "",
+			      "headset": "",
+			      "phone": "",
+			      "portable": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    "custom/power": {
+      "format": "",
+      "on-click": "~/.config/wofi/scripts/power.sh"
+    },
+
+    "custom/notifs": {
+      "format": "",
+      "on-click": "swaync-client -t",
+      "tooltip": false
+    }
+}
+

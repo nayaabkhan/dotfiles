@@ -1,0 +1,112 @@
+@define-color red #fa8f6e;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Dank Mono", "Font Awesome 5 Free", "Font Awesome 5 Pro Regular";
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+.modules-right {
+    padding-right: 4px;
+}
+
+#workspaces {
+    padding-left: 4px;
+}
+
+#workspaces button {
+    margin: 2px 2px 2px 0;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#workspaces button.focused {
+    background: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+}
+
+#mode {
+    margin: 2px;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #eb4d4b;
+    color: white;
+}
+
+#tray,
+#idle_inhibitor,
+#temperature,
+#clock,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio,
+#bluetooth,
+#custom-power,
+#custom-notifs {
+    padding: 0 4px;
+    margin-left: 8px;
+}
+
+#idle_inhibitor.deactivated {
+  opacity: 0.5;
+}
+
+/* A widget with no icon needs to pushed down a little */
+#clock {
+  margin-top: 0.25em;
+}
+
+#temperature.critical {
+    color: @red;
+}
+
+#battery icon {
+    color: @red;
+}
+
+#battery.charging,
+#battery.plugged {
+  /* color: #4fff9e; */
+}
+
+@keyframes blink {
+    to {
+        color: black;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#network.disconnected {
+  opacity: 0.5;
+}
+
+#pulseaudio.muted {
+  opacity: 0.5;
+}
