@@ -1,5 +1,0 @@
-Plug 'haishanh/night-owl.vim'
-Plug 'sainnhe/gruvbox-material'
-Plug 'romgrk/github-light.vim'
-Plug 'arzg/vim-substrata'
-Plug 'cocopon/iceberg.vim'

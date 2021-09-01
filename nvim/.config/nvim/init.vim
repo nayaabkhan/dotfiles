@@ -1,45 +1,31 @@
-let mapleader = " "
-let s:script_path = expand('<sfile>:p:h')
+runtime ./plug.vim
+runtime ./keybinds.vim
+runtime ./highlights.vim
+runtime ./autocmd.vim
+runtime ./globals.vim
+lua require("configs")
 
-" add a binding for reloading vim configs
-nnoremap <Leader>vr :source $MYVIMRC<CR>
+set number relativenumber
+set title
 
-" install plug and plugins if not done yet
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set smartindent
 
-call plug#begin('~/.vim/plugged')
+set termguicolors
+colorscheme nord
+"highlight Normal ctermbg=NONE guibg=NONE
+"set background=dark
 
-execute 'source ' . s:script_path . '/rcplugins/ctrlp.vim'
-execute 'source ' . s:script_path . '/rcplugins/javascript.vim'
-execute 'source ' . s:script_path . '/rcplugins/colors.vim'
-execute 'source ' . s:script_path . '/rcplugins/undotree.vim'
-execute 'source ' . s:script_path . '/rcplugins/lightline.vim'
-execute 'source ' . s:script_path . '/rcplugins/gitgutter.vim'
-execute 'source ' . s:script_path . '/rcplugins/coc.vim'
-execute 'source ' . s:script_path . '/rcplugins/ripgrep.vim'
-execute 'source ' . s:script_path . '/rcplugins/fugitive.vim'
-execute 'source ' . s:script_path . '/rcplugins/blamer.vim'
-execute 'source ' . s:script_path . '/rcplugins/devicons.vim'
-execute 'source ' . s:script_path . '/rcplugins/sneak.vim'
-execute 'source ' . s:script_path . '/rcplugins/startify.vim'
-execute 'source ' . s:script_path . '/rcplugins/vista.vim'
-execute 'source ' . s:script_path . '/rcplugins/surround.vim'
+set nohlsearch
+set ignorecase
+set smartcase
 
-call plug#end()
+set noerrorbells
 
-execute 'source ' . s:script_path . '/rcfiles/settings.vim'
-execute 'source ' . s:script_path . '/rcfiles/visual.vim'
-"execute 'source ' . s:script_path . '/rcfiles/statusline.vim'
-
-
-let g:netrw_browse_split = 2
-let g:netrw_banner = 0
-let g:netrw_winsize = 25
-
-autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
-autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+set nobackup
+set noswapfile
+set scrolloff=8
 
