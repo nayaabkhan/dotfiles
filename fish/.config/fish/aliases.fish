@@ -3,7 +3,7 @@ alias cp "cp -i"
 alias mv "mv -i"
 alias mkdir "mkdir -p"
 alias du "du -hs"
-alias grep 'grep --color=auto $argv'
+alias grep 'grep --color=auto'
 alias vim nvim
 
 if which exa > /dev/null 2>&1
