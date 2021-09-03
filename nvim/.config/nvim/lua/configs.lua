@@ -16,7 +16,7 @@ require('telescope').setup{
 
 require('lualine').setup{
   options = {
-    theme = 'nord',
+    theme = 'gruvbox_material',
     component_separators = { " ", " " },
     section_separators = { "", "" },
   },

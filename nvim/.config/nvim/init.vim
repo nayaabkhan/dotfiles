@@ -15,7 +15,7 @@ set shiftwidth=2
 set smartindent
 
 set termguicolors
-colorscheme nord
+colorscheme gruvbox-material
 "highlight Normal ctermbg=NONE guibg=NONE
 "set background=dark
 
