@@ -1,0 +1,3 @@
+exec wl-paste -t text --watch clipman store --max-items=200
+bindsym alt+shift+c exec clipman pick -t wofi
+

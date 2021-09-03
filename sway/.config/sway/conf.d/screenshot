@@ -1,0 +1,7 @@
+bindsym print exec grimshot --notify copy screen
+bindsym shift+print exec grimshot --notify copy area
+bindsym $mod+print exec grimshot --notify copy win
+
+bindsym alt+print exec grimshot save screen - | swappy -f -
+bindsym alt+shift+print exec grimshot save area - | swappy -f -
+bindsym alt+$mod+print exec grimshot save win - | swappy -f -

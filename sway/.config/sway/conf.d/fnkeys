@@ -1,0 +1,11 @@
+set $WOBSOCK $XDG_RUNTIME_DIR/wob.sock
+exec mkfifo $WOBSOCK && tail -f $WOBSOCK | wob --height 32 --border 0 --offset 4 --padding 0 --margin 128 --anchor 'bottom' --background-color '#00000088'
+
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5% && pactl get-sink-volume @DEFAULT_SINK@ | sed -En 's/.*\s+([0-9]+)%.*/\1/p' > $WOBSOCK
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5% && pactl get-sink-volume @DEFAULT_SINK@ | sed -En 's/.*\s+([0-9]+)%.*/\1/p' > $WOBSOCK
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%- | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
+bindsym XF86MonBrightnessUp exec brightnessctl set +5% | sed -En 's/.*\(([0-9]+)%\).*/\1/p' > $WOBSOCK
+bindsym XF86AudioPlay exec playerctl play-pause
+

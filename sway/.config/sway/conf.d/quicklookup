@@ -1,0 +1,1 @@
+bindsym alt+shift+l exec quick-lookup --selection
