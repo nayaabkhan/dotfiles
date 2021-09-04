@@ -8,7 +8,7 @@ for_window [class="^.*"] border pixel 0
 default_border pixel 2
 default_floating_border pixel 0
 
-client.focused #FFFFFF77 #FFFFFF77 #FFFFFF #FFFFFF77 #FFFFFF77
+client.focused #ffa24d77 #ffa24d77 #000000 #ffa24d77 #ffa24d77
 
 # Make Firefox notifications float, workaround:
 # https://bugzilla.mozilla.org/show_bug.cgi?id=1712681
