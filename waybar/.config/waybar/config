@@ -31,7 +31,7 @@
     },
 
     "clock": {
-        "format": "{:%a %b %d %R}"
+        "format": "{:%b %d %R}"
     },
 
     "temperature": {
