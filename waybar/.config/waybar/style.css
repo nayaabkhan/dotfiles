@@ -3,7 +3,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Dank Mono", "Font Awesome 5 Free", "Font Awesome 5 Pro Regular";
+    font-family: "Dank Mono", "Font Awesome 5 Pro Regular";
     font-size: 15px;
     min-height: 0;
 }
@@ -38,7 +38,6 @@ window#waybar {
 
 #workspaces button.focused {
     background: rgba(255, 255, 255, 0.2);
-    font-weight: bold;
 }
 
 #mode {
