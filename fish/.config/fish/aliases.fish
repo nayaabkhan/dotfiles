@@ -9,6 +9,7 @@ alias vim nvim
 if which exa > /dev/null 2>&1
   alias ls 'exa --git --icons'
   alias lt 'exa --tree --level=2 --git-ignore'
+  alias lla 'll -a'
 end
 
 alias c 'code --enable-features=UseOzonePlatform --ozone-platform=wayland'
