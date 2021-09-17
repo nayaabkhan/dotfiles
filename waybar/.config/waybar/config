@@ -1,10 +1,10 @@
+// vi: ft=json
 {
     "layer": "top",
     "position": "top",
     "height": 24,
     "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["tray", "idle_inhibitor", "network", "pulseaudio", "battery", "clock", "custom/notifs"],
+    "modules-right": ["custom/media", "tray", "idle_inhibitor", "network", "pulseaudio", "battery", "clock", "custom/notifs"],
 
     "sway/workspaces": {
         "disable-scroll": true,
@@ -20,7 +20,19 @@
     "sway/window": {
         "max-length": 50
     },
-    
+
+    "custom/media": {
+      "format": "{icon}{}",
+      "return-type": "json",
+      "format-icons": {
+        "Playing": "<small> </small>",
+        "Paused": "<small> </small>",
+      },
+      "max-length": 35,
+      "exec": "playerctl metadata --follow -f '{\"text\": \"{{title}}\", \"tooltip\": \"Playing <b>{{title}}</b> by <b>{{artist}}</b> on <b>{{playerName}}</b>\", \"alt\": \"{{ status }}\", \"class\": \"{{ lc(status) }}\"}'",
+      "on-click": "playerctl play-pause",
+    },
+
     "tray": {
         "icon-size": 18,
         "spacing": 10
