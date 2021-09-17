@@ -1,0 +1,18 @@
+exec firefox
+assign [app_id="firefox"] 1
+
+exec kitty --title="code"
+assign [app_id="kitty" title="code"] 2
+
+exec --no-startup-id discord --start-minimized
+assign [app_id="discord"] 9
+
+# only start slack on weekdays
+exec "if [[ $(date +%u) -le 5 ]]; then slack --enable-features=UseOzonePlatform --ozone-platform=wayland; fi"
+assign [app_id="[Ss]lack"] 9
+
+exec kitty --title="ncspot" ncspot
+assign [app_id="kitty" title="ncspot"] 10
+
+# for_window [app_id="kitty" title="cmus"] move to scratchpad
+

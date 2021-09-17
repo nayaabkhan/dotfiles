@@ -20,8 +20,3 @@ for_window [title="Quick Lookup"] floating enable
 for_window [app_id="mpv"] floating enable, resize set 960 540, border pixel 0
 for_window [app_id="firefox" title="Firefox — Sharing Indicator"] floating enable
 for_window [app_id="firefox" title="Picture-in-Picture"] floating enable
-
-assign [app_id="firefox"] 1
-assign [app_id="kitty"] 2
-assign [app_id="Slack"] 3
-assign [app_id="discord"] 3
