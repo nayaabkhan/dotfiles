@@ -1,4 +1,6 @@
-@define-color red #fa8f6e;
+@define-color red       #fa8f6e;
+@define-color fg        #cfc4bc;
+@define-color fgmuted   #665041;
 
 * {
     border: none;
@@ -10,7 +12,7 @@
 
 window#waybar {
     background: rgba(26, 21, 19, 0.8);
-    color: white;
+    color: @fg;
 }
 
 .modules-right {
@@ -25,11 +27,12 @@ window#waybar {
     margin: 2px 2px 2px 0;
     padding: 4px 4px 2px;
     border-radius: 8px;
+    color: @fgmuted;
     background-color: transparent;
 }
 
 #workspaces button:hover {
-    background: rgba(255, 255, 255, 0.2);
+    color: #e0dad5;
 }
 
 #workspaces button.urgent {
@@ -37,7 +40,7 @@ window#waybar {
 }
 
 #workspaces button.focused {
-    background: rgba(255, 255, 255, 0.2);
+    color: #e0dad5;
 }
 
 #mode {
@@ -66,7 +69,7 @@ window#waybar {
 }
 
 #idle_inhibitor.deactivated {
-  opacity: 0.5;
+    color: @fgmuted;
 }
 
 /* A widget with no icon needs to pushed down a little */
@@ -103,9 +106,9 @@ window#waybar {
 }
 
 #network.disconnected {
-  opacity: 0.5;
+    color: @fgmuted;
 }
 
 #pulseaudio.muted {
-  opacity: 0.5;
+    color: @fgmuted;
 }
