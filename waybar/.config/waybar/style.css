@@ -72,6 +72,10 @@ window#waybar {
     color: @fgmuted;
 }
 
+#tray {
+    opacity: 0.7;
+}
+
 #idle_inhibitor.deactivated {
     color: @fgmuted;
 }
