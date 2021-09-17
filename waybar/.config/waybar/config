@@ -51,7 +51,7 @@
         "critical-threshold": 75,
         "format": " {temperatureC}°C"
     },
-    
+
     "battery": {
         "bat": "BAT0",
         "full-at": 95,
@@ -65,7 +65,7 @@
         "format-discharging": "{icon} {capacity}%",
         "format-icons": ["", "", "", "", ""]
     },
-    
+
     "network": {
         "format-wifi": "",
         "format-disconnected": "",
@@ -74,7 +74,7 @@
             "wifi": ["", "" ,""]
         }
     },
-    
+
     "bluetooth": {
         "format": "{icon}",
         "interval": 30,
@@ -84,7 +84,7 @@
         },
         "tooltip": false
     },
-    
+
     "pulseaudio": {
         "format": "{icon}",
         "format-muted": "",
