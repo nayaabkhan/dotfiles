@@ -29,3 +29,6 @@ set nobackup
 set noswapfile
 set scrolloff=8
 
+" hidden characters
+set list
+set listchars=tab:\ ,space:·
