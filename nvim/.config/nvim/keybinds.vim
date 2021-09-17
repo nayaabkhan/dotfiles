@@ -8,4 +8,5 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope file_browser hidden=true follow=true<cr>
 nnoremap <leader>cs <cmd>Telescope colorscheme<cr>
 nnoremap <leader>bf <cmd>Telescope buffers<cr>
+nnoremap <leader>gs <cmd>Telescope git_status<cr>
 
