@@ -12,7 +12,12 @@ if which exa > /dev/null 2>&1
   alias lla 'll -a'
 end
 
-alias c 'code --enable-features=UseOzonePlatform --ozone-platform=wayland'
+switch (uname)
+  case Linux
+    alias c 'code --enable-features=UseOzonePlatform --ozone-platform=wayland .'
+  case Darwin
+    alias c 'code .'
+end
 
 abbr o open
 abbr b bat
