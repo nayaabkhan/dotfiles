@@ -41,3 +41,7 @@ abbr grim "git rebase -i master"
 abbr grc "git rebase --continue"
 abbr grh "git reset HEAD"
 
+
+abbr nr "npm run"
+abbr nrd "npm run dev"
+abbr nrb "npm run build"
