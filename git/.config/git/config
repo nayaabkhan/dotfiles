@@ -1,7 +1,10 @@
 [user]
 	email = nayaab@hey.com
 	name = Nayaabkhan Khan
-	signingkey = 1277CE5FAFD654BB
+	signingkey = 765CBEBF54219DFD
+
+[init]
+	defaultBranch = master
 
 [color]
 	ui = true
