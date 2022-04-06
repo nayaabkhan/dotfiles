@@ -47,7 +47,7 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 
 [ghq]
-	root = ~/forks
+	root = ~/Projects
 
 # https://github.com/dandavison/delta#supported-languages-and-themes
 [pager]
