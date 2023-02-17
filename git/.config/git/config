@@ -62,3 +62,6 @@
 [delta]
     line-numbers = true
     syntax-theme = Coldark-Dark
+
+[advice]
+	detachedHead = false
