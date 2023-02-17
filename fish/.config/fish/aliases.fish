@@ -27,6 +27,7 @@ abbr n nvim
 abbr ga "git add"
 abbr gap "git add -p"
 abbr gc "git commit"
+abbr gca "git commit --amend"
 abbr gcan "git commit --amend --no-edit"
 abbr gcm "git commit -m"
 abbr gd "git diff"
