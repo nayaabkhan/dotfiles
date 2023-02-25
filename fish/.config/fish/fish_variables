@@ -11,6 +11,7 @@ SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gap:git\x20add\x20\x2dp
 SETUVAR _fish_abbr_gc:git\x20commit
+SETUVAR _fish_abbr_gca:git\x20commit\x20\x2d\x2damend
 SETUVAR _fish_abbr_gcan:git\x20commit\x20\x2d\x2damend\x20\x2d\x2dno\x2dedit
 SETUVAR _fish_abbr_gcm:git\x20commit\x20\x2dm
 SETUVAR _fish_abbr_gd:git\x20diff
