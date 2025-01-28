@@ -5,6 +5,7 @@ alias mkdir "mkdir -p"
 alias du "du -hs"
 alias grep 'grep --color=auto'
 alias vim nvim
+alias pinentry pinentry-mac
 
 if which exa > /dev/null 2>&1
   alias ls 'exa --git --icons'
@@ -16,7 +17,7 @@ switch (uname)
   case Linux
     alias c 'code --enable-features=UseOzonePlatform --ozone-platform=wayland .'
   case Darwin
-    alias c 'code .'
+    alias c 'command -v cursor >/dev/null 2>&1 && cursor . || code .'
 end
 
 abbr o open

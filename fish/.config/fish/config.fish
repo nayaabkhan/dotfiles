@@ -10,3 +10,4 @@ source ~/.config/fish/aliases.fish
 
 thefuck --alias | source
 starship init fish | source
+export PATH="$PATH:$HOME/.local/bin"
