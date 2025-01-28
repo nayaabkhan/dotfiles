@@ -1,7 +1,0 @@
-set $menu wofi --show=drun -a --lines=5 --prompt=""
-bindsym alt+space exec $menu
-
-bindsym $mod+p exec ~/.config/wofi/scripts/power.sh
-
-exec emote
-bindsym ctrl+alt+space exec emote

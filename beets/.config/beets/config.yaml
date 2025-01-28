@@ -1,4 +1,0 @@
-directory: ~/Dropbox/Music
-library: ~/Dropbox/Music/beets.db
-import:
-    move: yes

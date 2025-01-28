@@ -1,3 +1,0 @@
-# https://github.com/swaywm/sway/issues/4492#issuecomment-530710387
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-
