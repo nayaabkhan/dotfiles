@@ -41,7 +41,7 @@
 	program = gpg
 [core]
 	excludesfile = ~/.gitignore
-	editor = subl -w
+	editor = vim
 
 [credential "https://github.com"]
 	helper = !/opt/homebrew/bin/gh auth git-credential

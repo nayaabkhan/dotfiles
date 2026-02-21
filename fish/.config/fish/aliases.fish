@@ -17,7 +17,7 @@ switch (uname)
   case Linux
     alias c 'code --enable-features=UseOzonePlatform --ozone-platform=wayland .'
   case Darwin
-    alias c 'command -v cursor >/dev/null 2>&1 && cursor . || code .'
+    alias c 'code .'
 end
 
 abbr o open
